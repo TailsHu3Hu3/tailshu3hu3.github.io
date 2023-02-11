@@ -22,11 +22,13 @@ h1 {
 
 h2 {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .perfil {
     text-align: center;
     margin-top: 23px;
+    margin-bottom: 57px;
 }
 
 .perfil img {
@@ -38,22 +40,13 @@ h2 {
     box-shadow: 0 0 30px #1e0230;
 }
 
-.social {
-    display:flex;
-    justify-content:space-around;
-    margin-top: 30px;
-}
-
-.social img{
-    width: 43px;
-}
-
 .links-list {
+    margin: 25px 15px;
     list-style: none;
 }
 
-.links-list {
-    margin: 25px 15px;
+.links-list li {
+    margin-bottom: 20px;
 }
 
 .links-list li a {
