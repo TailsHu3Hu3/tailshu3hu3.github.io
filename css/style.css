@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+::selection {
+    color:#7a26c4;
+    background:#110720;
+}
+
 html, css {
-    height: 100%;
+    height: max-content;
 }
 
 body {
@@ -15,15 +20,19 @@ body {
 }
 
 h1 {
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 15px;
     margin-bottom: 2px;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 h2 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 
 .perfil {
     text-align: center;
@@ -58,8 +67,46 @@ h2 {
     color: #4d2670;
 }
 
+
 .links-list li a span {
     color: #898989;
     display: block;
     margin-top: 10px;
+}
+
+h1:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+    color:#4d2670;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #1e0230;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 500ms;
+} 
+
+h2:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#110720;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #25131c;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 500ms;
+}
+
+.links-list li a:hover {
+    background-color:#090116;
+    color:#7a26c4;
+    transition-duration: 500ms;
+}
+
+.links-list li a span:hover {
+    color: #af7483;
+    transition-duration: 500ms;
 }
